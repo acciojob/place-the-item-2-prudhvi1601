@@ -1,2 +1,17 @@
 
-/* Your CSS Code here. */
+.holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.holder .item{
+    width: 300px;
+    background-color: black;
+    color: aqua;
+    height: 200px;
+    margin: 2px;
+    font-weight: 5000;
+    font-size: 25px;
+    padding: 10px 0 0 10px;
+}
